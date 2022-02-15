@@ -3,11 +3,11 @@
 # 设定拦截词,以竖线分割每个拦截词,被拦截的内容会转发给nodered服务器进行处理
 keywords=""
 # 配置nodered的接收地址
-nodered_url="http://192.168.200.209:1880/miai"
+nodered_url="http://192.168.2.20:1880/"
 # 配置从nodered更新拦截词的间隔,单位秒
 # 0代表不更新,一直使用本地拦截词
 # 大于0则更新,会从上面设定的nodered_url去获取拦截词,并覆盖本地的拦截词
-keywords_update_timeout=0
+keywords_update_timeout=5
 # == /自定义配置========================================
  
 asr_file="/tmp/mipns/mibrain/mibrain_asr.log"
