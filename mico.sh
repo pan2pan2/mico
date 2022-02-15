@@ -12,7 +12,7 @@ keywords_update_timeout=5
  
 asr_file="/tmp/mipns/mibrain/mibrain_asr.log"
 res_file="/tmp/mipns/mibrain/mibrain_txt_RESULT_NLP.log"
-nodered_auth="ben:benbendediannao"
+nodered_auth="admin:admin"
  
 # 解决可能存在第一次文件不存在问题
 touch $res_file && touch $asr_file
